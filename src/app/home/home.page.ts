@@ -44,11 +44,10 @@ export class HomePage {
 
     // Buat ikon baru
     const customIcon = L.divIcon({
-      className: 'fa-marker', // Tambahkan kelas untuk styling
-      html: '<i class="fa-solid fa-location-pin" style="font-size: 24px; color: red;"></i>', // Ikon Font Awesome
-      iconSize: [25, 41], // Ukuran ikon [lebar, tinggi]
-      iconAnchor: [12, 41], // Titik yang akan menjadi posisi sebenarnya dari ikon
-      popupAnchor: [1, -34], // Titik yang akan menjadi posisi popup
+      iconUrl: 'assets/icon/Lokasi.png',  // Ganti ini dengan URL ikon Anda
+      iconSize: [38, 38],  // Ukuran ikon dalam pixel [width, height]
+      iconAnchor: [19, 38],  // Anchor poin pada ikon (titik dimana ikon 'terpasang' pada posisi marker)
+      popupAnchor: [0, -38],  // Posisi popup relatif terhadap icon marker
   });
 
 
