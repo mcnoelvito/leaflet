@@ -30,6 +30,11 @@ export class HomePage {
       attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
     });
 
+    const cartoDBPositron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a>'
+    });
+
+
     // Inisialisasi map dengan base layer OSM
     this.map = L.map('mapId', {
       center: [-7.7742, 110.37],
@@ -55,7 +60,8 @@ export class HomePage {
     this.baseMaps = {
       "OpenStreetMap": osm,
       "Google Satellite": googleSatellite,
-      "ESRI World Imagery": esriWorldImagery
+      "ESRI World Imagery": esriWorldImagery,
+      "CartoDB Positron": cartoDBPositron
     };
 
     // Menambahkan kontrol layer ke peta
