@@ -43,8 +43,9 @@ export class HomePage {
     });
 
     // Buat ikon baru
+    const customIconUrl = 'assets/icon/Lokasi.png';
     const customIcon = L.divIcon({
-      iconUrl: 'assets/icon/Lokasi.png',  // Ganti ini dengan URL ikon Anda
+      iconUrl: customIconUrl,  // Ganti ini dengan URL ikon Anda
       iconSize: [38, 38],  // Ukuran ikon dalam pixel [width, height]
       iconAnchor: [19, 38],  // Anchor poin pada ikon (titik dimana ikon 'terpasang' pada posisi marker)
       popupAnchor: [0, -38],  // Posisi popup relatif terhadap icon marker
