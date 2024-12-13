@@ -2,6 +2,7 @@
 Aplikasi sederhana hybrid 
 
 **YK Heritage** *(Baca:  **Y**ogya**k**arta Heritage)* merupakan sebuah aplikasi pendataan bangunan cagar budaya dilengkapi peta interaktif yang mengajak penggunanya untuk menjelajahi sebaran bangunan berstatus cagar budaya yang ada di Kota Yogyakarta.
+
 **Komponen Pembangun Aplikas Hybrid :**
 * **Ionic** sebagai *framework* atau komponen utama dalam penyimpanan serangkaian kode WebGIS
 * HTML sebagai bahasa pemrograman utama untuk halaman index atau web
