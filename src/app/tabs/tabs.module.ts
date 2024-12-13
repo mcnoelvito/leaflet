@@ -3,15 +3,19 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
-import { ProfilePage } from './profile.page';
+import { TabsPage } from './tabs.page';
+
+
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    RouterModule.forChild([{ path: '', component: ProfilePage }])
+    
+    RouterModule.forChild([{ path: '', component: TabsPage }])
   ],
-  declarations: [ProfilePage]
+  declarations: [TabsPage],
+  exports: [TabsPage]
 })
-export class ProfilePageModule {}
+export class TabsPageModule {}
