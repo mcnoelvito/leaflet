@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 import * as L from 'leaflet';
 
 @Component({
@@ -21,7 +21,7 @@ export class HomePage {
     });
 
     const googleSatellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
-      maxZoom: 20,
+      maxZoom: 100,
       subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
       attribution: 'Google Satellite'
     });
@@ -34,11 +34,10 @@ export class HomePage {
       attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a>'
     });
 
-
     // Inisialisasi map dengan base layer OSM
     this.map = L.map('mapId', {
       center: [-7.7742, 110.37],
-      zoom: 20,
+      zoom: 13,
       layers: [osm] // Layer default
     });
 
@@ -48,12 +47,23 @@ export class HomePage {
       iconUrl: customIconUrl,  // Ganti ini dengan URL ikon Anda
       iconSize: [50, 50],  // Ukuran ikon dalam pixel [width, height]
       iconAnchor: [25, 60],  // Anchor poin pada ikon (titik dimana ikon 'terpasang' pada posisi marker)
-  });
+    });
 
+    // Daftar lokasi untuk marker
+    const locations = [
+      { lat: -7.7742, lng: 110.37, title: 'Wajur',description: 'Ini adalah lokasi Wajur yang memiliki keindahan alam yang menakjubkan.' },
+      { lat: -7.7750, lng: 110.38, title: 'Lokasi 2',description: 'Ini adalah lokasi Wajur yang memiliki keindahan alam yang menakjubkan.' },
+      { lat: -7.7735, lng: 110.36, title: 'Lokasi 3',description: 'Ini adalah lokasi Wajur yang memiliki keindahan alam yang menakjubkan.' }
+    ];
 
-    // Menambahkan marker dengan popup
-    const marker = L.marker([-7.7742, 110.37], { icon: customIcon }).addTo(this.map);
-    marker.bindPopup('<b>Lokasi Marker</b><br>Ini adalah Wajur.');
+    // Menambahkan marker untuk setiap lokasi
+locations.forEach(location => {
+  const marker = L.marker([location.lat, location.lng], { icon: customIcon }).addTo(this.map);
+  marker.bindPopup(`
+    <b>${location.title}</b><br>
+    ${location.description}
+  `);
+});
 
     // Layer control untuk base map
     this.baseMaps = {

@@ -31,4 +31,18 @@ ion-toolbar {
   --color: #000000; /* Warna teks */
 }
 
+ion-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#map {
+  flex: 1; /* Mengisi sisa ruang yang tersedia */
+  width: 100%;
+  background-color: #f0f0f0; /* Warna latar belakang jika peta gagal dimuat */
+}
+
+
+
 
