@@ -7,3 +7,11 @@ ion-tab-button {
 ion-tab-button[aria-selected="true"] {
   color: #007bff;
 }
+ion-thumbnail {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+ion-searchbar {
+  margin-bottom: 10px;
+}

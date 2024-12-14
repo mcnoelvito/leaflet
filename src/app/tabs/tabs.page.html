@@ -4,6 +4,27 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <h1>Daftar bangunan</h1>
+<ion-content class="ion-padding">
+  <!-- Pencarian -->
+  <ion-searchbar
+    placeholder="Cari Bangunan"
+    (ionInput)="filterBuildings($event)"
+  ></ion-searchbar>
+
+  <!-- Daftar Bangunan -->
+  <ion-list>
+    <ion-item
+      *ngFor="let building of filteredBuildings"
+      button
+      (click)="openBuildingDetail(building.id)"
+    >
+      <ion-thumbnail slot="start">
+        <img [src]="building.image" alt="{{ building.name }}" />
+      </ion-thumbnail>
+      <ion-label>
+        <h2>{{ building.name }}</h2>
+        <p>{{ building.address }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
 </ion-content>
