@@ -53,7 +53,7 @@ export class HomePage {
 
     // Menambahkan marker dengan popup
     const marker = L.marker([-7.7742, 110.37], { icon: customIcon }).addTo(this.map);
-    marker.bindPopup('<b>Lokasi Marker</b><br>Ini adalah Wajur.').openPopup();
+    marker.bindPopup('<b>Lokasi Marker</b><br>Ini adalah Wajur.');
 
     // Layer control untuk base map
     this.baseMaps = {
