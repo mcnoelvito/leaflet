@@ -11,20 +11,23 @@
     (ionInput)="filterBuildings($event)"
   ></ion-searchbar>
 
-  <!-- Daftar Bangunan -->
-  <ion-list>
-    <ion-item
-      *ngFor="let building of filteredBuildings"
-      button
-      (click)="openBuildingDetail(building.id)"
-    >
-      <ion-thumbnail slot="start">
-        <img [src]="building.image" alt="{{ building.name }}" />
-      </ion-thumbnail>
-      <ion-label>
-        <h2>{{ building.name }}</h2>
+  <!-- Daftar Bangunan - Menggunakan card dan gambar lebih besar -->
+<ion-list>
+  <ion-item *ngFor="let building of filteredBuildings" button (click)="openBuildingDetail(building.id)">
+    <!-- Card untuk setiap bangunan -->
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>{{ building.name }}</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <!-- Wadah gambar lebih besar -->
+        <ion-img [src]="building.image" alt="{{ building.name }}" style="height: 250px; object-fit: cover;"></ion-img>
+
+        <!-- Deskripsi bangunan -->
         <p>{{ building.address }}</p>
-      </ion-label>
-    </ion-item>
-  </ion-list>
+      </ion-card-content>
+    </ion-card>
+  </ion-item>
+</ion-list>
 </ion-content>
