@@ -6,7 +6,7 @@ import { mapOutline, listOutline, person } from 'ionicons/icons';
 @Component({
   selector: 'app-navigation',
   templateUrl: 'navigation.html',
-  styleUrls: ['navigation.css'],
+  styleUrls: ['navigation.scss'],
 })
 export class Navigation {
   constructor() {
