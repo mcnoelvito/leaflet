@@ -15,8 +15,13 @@ Aplikasi sederhana hybrid
 **Tangkapan Layar :** 
 * Halaman Awal dengan Peta Interaktif
 <img src="Beranda.png" alt="HalamanAwal" width="300" />
+
 * Daftar Bangunan Cagar Budaya
 <img src="DaftarBangunan.png" alt="HalamanAwal" width="300" />
+
 * Informasi Aplikasi
 <img src="Profil.png" alt="HalamanAwal" width="300" />
+
+* Tautan Vercel Aplikasi
+* https://leaflet-sigma-navy.vercel.app/
 
