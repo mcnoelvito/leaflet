@@ -14,9 +14,9 @@ Aplikasi sederhana hybrid
 
 **Tangkapan Layar :** 
 * Halaman Awal dengan Peta Interaktif
-![HalamanAwal]
+![HalamanAwal](Beranda.png)
 * Daftar Bangunan Cagar Budaya
 ![Dasbor]
 * Informasi Aplikasi
-![EditdanBuatdata]
+![EditdanBuatdata](Profil.png)
 
