@@ -53,7 +53,7 @@ export class HomePage {
     const locations = [
       { lat: -7.805142964499041 , lng: 110.36418960853538, title: 'Kompleks Kraton Yogyakarta',description: 'Merupakan sebuah kompleks bangunan keraton tempat tinggal keluarga Kesultanan Ngayogyakarta Hadiningrat.' },
       { lat: -7.800918, lng: 110.364179, title: 'Kompleks Gedung Agung',description: 'Merupakan salah satu istana kepresidenan Republik Indonesia yang terletak di Kota Yogyakarta.' },
-      { lat: -7.7735, lng: 110.36, title: 'Puro Pakualaman',description: 'Merupakan sebuah kompleks bangunan keraton tempat tinggal keluarga Kadipaten Pakualaman.' }
+      { lat: -7.8009511614206115, lng: 110.37614826857066, title: 'Puro Pakualaman',description: 'Merupakan sebuah kompleks bangunan keraton tempat tinggal keluarga Kadipaten Pakualaman.' }
     ];
 
     // Menambahkan marker untuk setiap lokasi
