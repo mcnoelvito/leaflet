@@ -14,9 +14,9 @@ Aplikasi sederhana hybrid
 
 **Tangkapan Layar :** 
 * Halaman Awal dengan Peta Interaktif
-![HalamanAwal](Beranda.png)
+<img src="Beranda.png" alt="HalamanAwal" width="300" />
 * Daftar Bangunan Cagar Budaya
-![Dasbor]
+<img src="DaftarBangunan.png" alt="HalamanAwal" width="300" />
 * Informasi Aplikasi
-![EditdanBuatdata](Profil.png)
+<img src="Profil.png" alt="HalamanAwal" width="300" />
 
