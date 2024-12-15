@@ -36,7 +36,7 @@ export class HomePage {
 
     // Inisialisasi map dengan base layer OSM
     this.map = L.map('mapId', {
-      center: [-7.7742, 110.37],
+      center: [-7.8009, 110.3761],
       zoom: 13,
       layers: [osm] // Layer default
     });
