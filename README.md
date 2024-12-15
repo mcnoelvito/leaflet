@@ -7,8 +7,7 @@ Aplikasi sederhana hybrid
 * **Ionic** sebagai *framework* atau komponen utama dalam penyimpanan serangkaian kode WebGIS
 * HTML sebagai bahasa pemrograman penampil utama dalam aplikasi
 * **Leaflet.js** peta dasar penyusun peta interaktif
-* **Bootstrap** komponen web untuk mendesain antarmuka peta interaktif 
-* Fontawesome komponen web untuk menambah ikon di samping tulisan
+* **Vercel** komponen web hosting untuk publikasi secara luas 
 
 **Sumber Data :**
 * https://jogjacagar.jogjaprov.go.id/bangunan-warisan-cagar-budaya
