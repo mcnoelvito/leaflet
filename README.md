@@ -14,12 +14,10 @@ Aplikasi sederhana hybrid
 * https://jogjacagar.jogjaprov.go.id/bangunan-warisan-cagar-budaya
 
 **Tangkapan Layar :** 
-* Halaman Awal
+* Halaman Awal dengan Peta Interaktif
 ![HalamanAwal]
-* Dasbor Pengguna
+* Daftar Bangunan Cagar Budaya
 ![Dasbor]
-* Peta Interaktif
-
-* Jendela Pembuatan dan Edit Data Geospasial
+* Informasi Aplikasi
 ![EditdanBuatdata]
-* Tabel Kumpulan Informasi Data Geospasial
+
