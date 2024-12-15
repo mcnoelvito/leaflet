@@ -17,13 +17,13 @@ Aplikasi sederhana hybrid
 <img src="Beranda.png" alt="HalamanAwal" width="300" />
 
 * Daftar Bangunan Cagar Budaya
-<img src="DaftarBangunan.png" alt="HalamanAwal" width="300" />
+<img src="DaftarBangunan.png" alt="DaftarBangunan" width="300" />
 
 * Informasi Aplikasi
-<img src="Profil.png" alt="HalamanAwal" width="300" />
+<img src="Profil.png" alt="Profil" width="300" />
 
 **Poster Responsi**
-
+<img src="Poster.png" alt="Poster"/>
 
 **Tautan Vercel Aplikasi**
 * https://leaflet-sigma-navy.vercel.app/
