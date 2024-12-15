@@ -33,8 +33,15 @@ export class TabsPage {
       id: 4,
       name: 'Gedung DPRD DIY',
       address: 'Jl. Malioboro no. 54 Kel. Suryatmajan, Kem. Danurejan, Kota Yogyakarta, Prov. Daerah Istimewa Yogyakarta',
-      image: 'assets/icon/Puro_pakualaman.jpg',
+      image: 'assets/icon/DPRD_DIY.jpg',
       description: 'Merupakan sebuah kompleks gedung DPRD DIY dinamakan Loge Mataram (Nama resmi dalam bahasa Belanda). Nama Loge (Loji) bermakna rumah atau gedung yang besar (Inggris: Lodge). Nama Mataram digunakan untuk menunjukkan lokasi loji yakni di wilayah Mataram. Gedung ini pernah digunakan sebagai tempat dicetuskannya politik luar negeri Republik Indonesia yang bebas aktif oleh Kabinet/Wapres Drs. Moh. Hatta pada 2 September 1948 di depan sidang BPKNIP.',
+    },
+    {
+      id: 5,
+      name: 'Stasiun Kereta Api Tugu Yogyakarta',
+      address: 'Jl. P. Mangkubumi  Kel. Sosromenduran, Kem. Gedongtengen, Kota Yogyakarta, Prov. Daerah Istimewa Yogyakarta',
+      image: 'assets/icon/DPRD_DIY.jpg',
+      description: 'Merupakan sebuah stasiun kereta api utama dan terbesar di Kota Yogyakarta dan DIY.',
     }
   ];
 

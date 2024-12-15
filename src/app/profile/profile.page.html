@@ -4,7 +4,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content class="ion-padding background-page">
+<ion-content padding class="background">
   <h1 class="ion-text-center">Selamat Datang di Aplikasi YK Heritage</h1>
   <div class="profile-container">
     <ion-avatar>
@@ -20,11 +20,8 @@
     <h4>Sumber Data: https://jogjacagar.jogjaprov.go.id/bangunan-warisan-cagar-budaya</h4>
   </div>
 
-  <ion-list>
-
-    <ion-item button color="warning" (click)="logout()">
-      <ion-icon slot="start" name="log-in-outline"></ion-icon>
-      <ion-label>Login</ion-label>
-    </ion-item>
-  </ion-list>
+  <ion-item button color="warning" (click)="logout()">
+    <ion-icon slot="start" name="log-in-outline"></ion-icon>
+    <ion-label>Login</ion-label>
+  </ion-item>
 </ion-content>

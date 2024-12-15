@@ -55,6 +55,7 @@ export class HomePage {
       { lat: -7.800918, lng: 110.364179, title: 'Kompleks Gedung Agung',description: 'Merupakan salah satu istana kepresidenan Republik Indonesia yang terletak di Kota Yogyakarta.' },
       { lat: -7.8009511614206115, lng: 110.37614826857066, title: 'Puro Pakualaman',description: 'Merupakan sebuah kompleks bangunan keraton tempat tinggal keluarga Kadipaten Pakualaman.' },
       { lat: -7.797119, lng: 110.392093, title: 'Gedung DPRD DIY',description: 'Merupakan sebuah kompleks bangunan DPRD Provinsi Daerah Istimewa Yogyakarta yang dikenal sebagai Loge Mataram.' },
+      { lat: -7.7892794813615485 , lng: 110.3635766285838, title: 'Stasiun Kereta Api Tugu Yogyakarta',description: 'Merupakan sebuah stasiun kereta api utama di Kota Yogyakarta dan DIY.' },
     ];
 
     // Menambahkan marker untuk setiap lokasi

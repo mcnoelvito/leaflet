@@ -4,7 +4,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content class="ion-padding">
+<ion-content class="background">
   <!-- Pencarian -->
   <ion-searchbar
     placeholder="Cari Bangunan"
@@ -12,7 +12,7 @@
   ></ion-searchbar>
 
   <!-- Daftar Bangunan - Menggunakan card dan gambar lebih besar -->
-<ion-list>
+
   <ion-item *ngFor="let building of filteredBuildings" button (click)="openBuildingDetail(building.id)">
     <!-- Card untuk setiap bangunan -->
     <ion-card>
@@ -30,5 +30,5 @@
       </ion-card-content>
     </ion-card>
   </ion-item>
-</ion-list>
+
 </ion-content>

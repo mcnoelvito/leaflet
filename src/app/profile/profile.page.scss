@@ -1,11 +1,20 @@
-.background-page {
-  background: url('/assets/icon/Backgroud app.png') no-repeat center center fixed;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+ion-content.background {
+  --background: none; /* Matikan background bawaan */
+  position: relative; /* Tetap relatif untuk konten */
+
+  &::before {
+    content: "";
+    background: url('../../assets/icon/Backgroud app.png') no-repeat center center;
+    background-size: cover; /* Pastikan background memenuhi layar */
+    position: absolute; /* Background akan berada di belakang konten */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Letakkan di bawah konten */
+  }
 }
+
 .profile-container {
   text-align: center;
   margin-top: 20px;
@@ -44,4 +53,29 @@ ion-item {
 ion-toolbar {
   --background: #ECEBDE; /* Warna latar belakang toolbar */
   --color: #000000; /* Warna teks */
+}
+ion-item.button {
+  --padding-top: 0; /* Hilangkan padding atas */
+  --padding-bottom: 0; /* Hilangkan padding bawah */
+  --padding-start: 16px;  /* Sesuaikan padding kiri */
+  --padding-end: 16px;    /* Sesuaikan padding kanan */
+  --min-height: 40px;     /* Sesuaikan tinggi tombol */
+  --border-radius: 8px;   /* Menambahkan radius untuk sudut lebih halus */
+  margin: 10px 20px;      /* Sesuaikan margin atas, bawah, kiri, dan kanan */
+  text-align: center;     /* Rata tengah untuk teks dalam tombol */
+  font-weight: 600;       /* Membuat teks lebih tebal */
+  background-color: #ffc107; /* Warna kuning cerah */
+  color: #000; /* Warna teks lebih gelap agar kontras */
+  --background-hover: #ffb300; /* Warna hover lebih gelap */
+
+}
+
+ion-content {
+
+}
+
+
+ion-icon {
+  font-size: 20px; /* Atur ukuran ikon */
+  margin-right: 8px; /* Berikan jarak antara ikon dan teks */
 }
