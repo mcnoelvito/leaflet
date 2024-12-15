@@ -40,7 +40,7 @@ export class TabsPage {
       id: 5,
       name: 'Stasiun Kereta Api Tugu Yogyakarta',
       address: 'Jl. P. Mangkubumi  Kel. Sosromenduran, Kem. Gedongtengen, Kota Yogyakarta, Prov. Daerah Istimewa Yogyakarta',
-      image: 'assets/icon/DPRD_DIY.jpg',
+      image: 'assets/icon/Stasiun_Tugu_2024.jpg',
       description: 'Merupakan sebuah stasiun kereta api utama dan terbesar di Kota Yogyakarta dan DIY.',
     }
   ];
