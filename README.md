@@ -22,6 +22,9 @@ Aplikasi sederhana hybrid
 * Informasi Aplikasi
 <img src="Profil.png" alt="HalamanAwal" width="300" />
 
-* Tautan Vercel Aplikasi
+**Poster Responsi**
+
+
+**Tautan Vercel Aplikasi**
 * https://leaflet-sigma-navy.vercel.app/
 
