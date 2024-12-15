@@ -1,5 +1,5 @@
 .background-page {
-  background: url('/assets/Backgroud app.png') no-repeat center center fixed;
+  background: url('/assets/icon/Backgroud app.png') no-repeat center center fixed;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -23,6 +23,14 @@ h2 {
   margin: 10px 0 5px;
   font-size: 1.5em;
   color: #333;
+}
+
+h3.ion-text-justify {
+  font-size: 15px; /* Ganti dengan ukuran yang diinginkan */
+}
+
+h4 {
+  font-size: 15px; /* Ganti dengan ukuran yang diinginkan */
 }
 
 p {
