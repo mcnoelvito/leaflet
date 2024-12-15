@@ -6,7 +6,7 @@ Aplikasi sederhana hybrid
 **Komponen Pembangun Aplikas Hybrid :**
 * **Ionic** sebagai *framework* atau komponen utama dalam penyimpanan serangkaian kode WebGIS
 * HTML sebagai bahasa pemrograman utama untuk halaman index atau web
-* Leaflet.js peta dasar penyusun peta interaktif
+* **Leaflet.js** peta dasar penyusun peta interaktif
 * Bootstrap komponen web untuk mendesain antarmuka peta interaktif 
 * Fontawesome komponen web untuk menambah ikon di samping tulisan
 
