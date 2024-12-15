@@ -10,21 +10,24 @@ export class TabsPage {
   buildings = [
     {
       id: 1,
-      name: 'Gedung A',
-      address: 'Jl. Merdeka No.1',
+      name: 'Kompleks Kraton Yogyakarta',
+      address: 'Kel. Panembahan, Kem. Kraton, Kota Yogyakarta, Prov. Daerah Istimewa Yogyakarta',
       image: 'https://via.placeholder.com/150',
+      description: 'Merupakan sebuah kompleks bangunan keraton tempat tinggal keluarga Kesultanan Ngayogyakarta Hadiningrat',
     },
     {
       id: 2,
-      name: 'Gedung B',
-      address: 'Jl. Kebangsaan No.5',
+      name: 'Kompleks Istana Kepresidenan Gedung Agung',
+      address: 'Jl. Jenderal Ahmad Yani Kel. Ngupasan, Kem. Gondomanan, Kota Yogyakarta, Prov. Daerah Istimewa Yogyakarta',
       image: 'https://via.placeholder.com/150',
+      description: 'Merupakan sebuah kompleks bangunan salah satu istana kepresidenan Republik Indonesia yang terletak di Kota Yogyakarta',
     },
     {
       id: 3,
-      name: 'Gedung C',
-      address: 'Jl. Pahlawan No.10',
+      name: 'Puro Pakualaman',
+      address: 'Jl. Sultan Agung No. 66 Kel. Purwokinanti, Kem. Pakualaman, Kota Yogyakarta, Prov. Daerah Istimewa Yogyakarta',
       image: 'https://via.placeholder.com/150',
+      description: 'Merupakan sebuah kompleks bangunan keraton tempat tinggal keluarga Kadipaten Pakualaman',
     },
   ];
 

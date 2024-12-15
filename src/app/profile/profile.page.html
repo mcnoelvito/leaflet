@@ -4,21 +4,24 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content class="ion-padding">
-  <h1>Selamat Datang MNH</h1>
+<ion-content class="ion-padding background-page">
+  <h1 class="ion-text-center">Selamat Datang di Aplikasi YK Heritage</h1>
   <div class="profile-container">
     <ion-avatar>
-      <img [src]="user.avatar" alt="User Avatar" />
+      <img src="assets/icon/YK Heritage Logo.png" alt="User Avatar" />
     </ion-avatar>
-    <h2>{{ user.name }}</h2>
-    <p>{{ user.email }}</p>
+    <h2></h2>
+    <p>v 1.0</p>
+    <h3 class="ion-text-justify">YK Heritage (Baca: Yogyakarta Heritage) merupakan sebuah aplikasi pendataan bangunan cagar budaya dilengkapi peta interaktif
+      yang mengajak penggunanya untuk menjelajahi sebaran bangunan berstatus cagar budaya yang ada di Kota Yogyakarta.
+    Aplikasi ini diharapkan dapat menjadi sarana untuk membantu pengarsipan dan pengelolaan data bangunan cagar budaya di khusus di Kota Yogyakarta
+    secara lebih cepat dibandingkan harus membuka situs resmi di pemerintah yang menampilkan data seluruh cagar budaya se-Daerah Istimewa Yogyakarta.</h3>
+
+    <h4>Sumber Data :https://jogjacagar.jogjaprov.go.id/bangunan-warisan-cagar-budaya</h4>
   </div>
 
   <ion-list>
-    <ion-item button (click)="editProfile()">
-      <ion-icon slot="start" name="create-outline"></ion-icon>
-      <ion-label>Edit Profile</ion-label>
-    </ion-item>
+
     <ion-item button color="warning" (click)="logout()">
       <ion-icon slot="start" name="log-in-outline"></ion-icon>
       <ion-label>Login</ion-label>

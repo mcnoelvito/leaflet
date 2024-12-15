@@ -51,9 +51,9 @@ export class HomePage {
 
     // Daftar lokasi untuk marker
     const locations = [
-      { lat: -7.7742, lng: 110.37, title: 'Wajur',description: 'Ini adalah lokasi Wajur yang memiliki keindahan alam yang menakjubkan.' },
-      { lat: -7.7750, lng: 110.38, title: 'Lokasi 2',description: 'Ini adalah lokasi Wajur yang memiliki keindahan alam yang menakjubkan.' },
-      { lat: -7.7735, lng: 110.36, title: 'Lokasi 3',description: 'Ini adalah lokasi Wajur yang memiliki keindahan alam yang menakjubkan.' }
+      { lat: -7.805142964499041 , lng: 110.36418960853538, title: 'Kompleks Kraton Yogyakarta',description: 'Merupakan sebuah kompleks bangunan keraton tempat tinggal keluarga Kesultanan Ngayogyakarta Hadiningrat.' },
+      { lat: -7.800918, lng: 110.364179, title: 'Kompleks Gedung Agung',description: 'Merupakan salah satu istana kepresidenan Republik Indonesia yang terletak di Kota Yogyakarta.' },
+      { lat: -7.7735, lng: 110.36, title: 'Puro Pakualaman',description: 'Merupakan sebuah kompleks bangunan keraton tempat tinggal keluarga Kadipaten Pakualaman.' }
     ];
 
     // Menambahkan marker untuk setiap lokasi
