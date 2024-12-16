@@ -23,7 +23,7 @@ Aplikasi sederhana hybrid
 <img src="Profil.png" alt="Profil" width="300" />
 
 **Poster Responsi**
-<img src="Poster_Responsi.png" alt="Poster"/>
+<img src="Poster_R.png" alt="Poster"/>
 
 **Tautan Vercel Aplikasi**
 * https://leaflet-sigma-navy.vercel.app/
